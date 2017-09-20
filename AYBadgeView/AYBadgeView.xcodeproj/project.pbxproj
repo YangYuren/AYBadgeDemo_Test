@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF0E0CC21F71FD9A00119D8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0E0CC11F71FD9A00119D8F /* main.m */; };
+		EF0E0CC51F71FD9A00119D8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0E0CC41F71FD9A00119D8F /* AppDelegate.m */; };
+		EF0E0CC81F71FD9A00119D8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0E0CC71F71FD9A00119D8F /* ViewController.m */; };
+		EF0E0CCB1F71FD9A00119D8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF0E0CC91F71FD9A00119D8F /* Main.storyboard */; };
+		EF0E0CCD1F71FD9A00119D8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0E0CCC1F71FD9A00119D8F /* Assets.xcassets */; };
+		EF0E0CD01F71FD9A00119D8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF0E0CCE1F71FD9A00119D8F /* LaunchScreen.storyboard */; };
+		EF0E0CDB1F71FD9A00119D8F /* AYBadgeViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0E0CDA1F71FD9A00119D8F /* AYBadgeViewTests.m */; };
+		EF0E0CE61F71FD9A00119D8F /* AYBadgeViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0E0CE51F71FD9A00119D8F /* AYBadgeViewUITests.m */; };
+		EF4362961F71FEA2001A5AD0 /* AYBadgeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4362951F71FEA2001A5AD0 /* AYBadgeLabel.m */; };
+		EF4362991F71FFED001A5AD0 /* UIView+AYBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4362981F71FFED001A5AD0 /* UIView+AYBadge.m */; };
+		EF43629F1F720213001A5AD0 /* UIBarButtonItem+AYBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = EF43629E1F720213001A5AD0 /* UIBarButtonItem+AYBadge.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF0E0CD71F71FD9A00119D8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF0E0CB51F71FD9A00119D8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF0E0CBC1F71FD9A00119D8F;
+			remoteInfo = AYBadgeView;
+		};
+		EF0E0CE21F71FD9A00119D8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF0E0CB51F71FD9A00119D8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF0E0CBC1F71FD9A00119D8F;
+			remoteInfo = AYBadgeView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF0E0CBD1F71FD9A00119D8F /* AYBadgeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AYBadgeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF0E0CC11F71FD9A00119D8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF0E0CC31F71FD9A00119D8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF0E0CC41F71FD9A00119D8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF0E0CC61F71FD9A00119D8F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF0E0CC71F71FD9A00119D8F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF0E0CCA1F71FD9A00119D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF0E0CCC1F71FD9A00119D8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF0E0CCF1F71FD9A00119D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF0E0CD11F71FD9A00119D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF0E0CD61F71FD9A00119D8F /* AYBadgeViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AYBadgeViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF0E0CDA1F71FD9A00119D8F /* AYBadgeViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYBadgeViewTests.m; sourceTree = "<group>"; };
+		EF0E0CDC1F71FD9A00119D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF0E0CE11F71FD9A00119D8F /* AYBadgeViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AYBadgeViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF0E0CE51F71FD9A00119D8F /* AYBadgeViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYBadgeViewUITests.m; sourceTree = "<group>"; };
+		EF0E0CE71F71FD9A00119D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF4362941F71FEA2001A5AD0 /* AYBadgeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYBadgeLabel.h; sourceTree = "<group>"; };
+		EF4362951F71FEA2001A5AD0 /* AYBadgeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYBadgeLabel.m; sourceTree = "<group>"; };
+		EF4362971F71FFED001A5AD0 /* UIView+AYBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AYBadge.h"; sourceTree = "<group>"; };
+		EF4362981F71FFED001A5AD0 /* UIView+AYBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AYBadge.m"; sourceTree = "<group>"; };
+		EF43629B1F72010C001A5AD0 /* UIBarButtonItem+AYBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+AYBadge.h"; sourceTree = "<group>"; };
+		EF43629E1F720213001A5AD0 /* UIBarButtonItem+AYBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+AYBadge.m"; sourceTree = "<group>"; };
+		EF4362A01F720270001A5AD0 /* AYPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYPrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF0E0CBA1F71FD9A00119D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0E0CD31F71FD9A00119D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0E0CDE1F71FD9A00119D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF0E0CB41F71FD9A00119D8F = {
+			isa = PBXGroup;
+			children = (
+				EF0E0CBF1F71FD9A00119D8F /* AYBadgeView */,
+				EF0E0CD91F71FD9A00119D8F /* AYBadgeViewTests */,
+				EF0E0CE41F71FD9A00119D8F /* AYBadgeViewUITests */,
+				EF0E0CBE1F71FD9A00119D8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF0E0CBE1F71FD9A00119D8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF0E0CBD1F71FD9A00119D8F /* AYBadgeView.app */,
+				EF0E0CD61F71FD9A00119D8F /* AYBadgeViewTests.xctest */,
+				EF0E0CE11F71FD9A00119D8F /* AYBadgeViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF0E0CBF1F71FD9A00119D8F /* AYBadgeView */ = {
+			isa = PBXGroup;
+			children = (
+				EF4362861F71FE57001A5AD0 /* AYBadge */,
+				EF0E0CC31F71FD9A00119D8F /* AppDelegate.h */,
+				EF0E0CC41F71FD9A00119D8F /* AppDelegate.m */,
+				EF0E0CC61F71FD9A00119D8F /* ViewController.h */,
+				EF0E0CC71F71FD9A00119D8F /* ViewController.m */,
+				EF0E0CC91F71FD9A00119D8F /* Main.storyboard */,
+				EF0E0CCC1F71FD9A00119D8F /* Assets.xcassets */,
+				EF0E0CCE1F71FD9A00119D8F /* LaunchScreen.storyboard */,
+				EF0E0CD11F71FD9A00119D8F /* Info.plist */,
+				EF0E0CC01F71FD9A00119D8F /* Supporting Files */,
+				EF4362A01F720270001A5AD0 /* AYPrefixHeader.pch */,
+			);
+			path = AYBadgeView;
+			sourceTree = "<group>";
+		};
+		EF0E0CC01F71FD9A00119D8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF0E0CC11F71FD9A00119D8F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF0E0CD91F71FD9A00119D8F /* AYBadgeViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF0E0CDA1F71FD9A00119D8F /* AYBadgeViewTests.m */,
+				EF0E0CDC1F71FD9A00119D8F /* Info.plist */,
+			);
+			path = AYBadgeViewTests;
+			sourceTree = "<group>";
+		};
+		EF0E0CE41F71FD9A00119D8F /* AYBadgeViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF0E0CE51F71FD9A00119D8F /* AYBadgeViewUITests.m */,
+				EF0E0CE71F71FD9A00119D8F /* Info.plist */,
+			);
+			path = AYBadgeViewUITests;
+			sourceTree = "<group>";
+		};
+		EF4362861F71FE57001A5AD0 /* AYBadge */ = {
+			isa = PBXGroup;
+			children = (
+				EF4362941F71FEA2001A5AD0 /* AYBadgeLabel.h */,
+				EF4362951F71FEA2001A5AD0 /* AYBadgeLabel.m */,
+				EF4362971F71FFED001A5AD0 /* UIView+AYBadge.h */,
+				EF4362981F71FFED001A5AD0 /* UIView+AYBadge.m */,
+				EF43629B1F72010C001A5AD0 /* UIBarButtonItem+AYBadge.h */,
+				EF43629E1F720213001A5AD0 /* UIBarButtonItem+AYBadge.m */,
+			);
+			name = AYBadge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF0E0CBC1F71FD9A00119D8F /* AYBadgeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF0E0CEA1F71FD9A00119D8F /* Build configuration list for PBXNativeTarget "AYBadgeView" */;
+			buildPhases = (
+				EF0E0CB91F71FD9A00119D8F /* Sources */,
+				EF0E0CBA1F71FD9A00119D8F /* Frameworks */,
+				EF0E0CBB1F71FD9A00119D8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AYBadgeView;
+			productName = AYBadgeView;
+			productReference = EF0E0CBD1F71FD9A00119D8F /* AYBadgeView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF0E0CD51F71FD9A00119D8F /* AYBadgeViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF0E0CED1F71FD9A00119D8F /* Build configuration list for PBXNativeTarget "AYBadgeViewTests" */;
+			buildPhases = (
+				EF0E0CD21F71FD9A00119D8F /* Sources */,
+				EF0E0CD31F71FD9A00119D8F /* Frameworks */,
+				EF0E0CD41F71FD9A00119D8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF0E0CD81F71FD9A00119D8F /* PBXTargetDependency */,
+			);
+			name = AYBadgeViewTests;
+			productName = AYBadgeViewTests;
+			productReference = EF0E0CD61F71FD9A00119D8F /* AYBadgeViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF0E0CE01F71FD9A00119D8F /* AYBadgeViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF0E0CF01F71FD9A00119D8F /* Build configuration list for PBXNativeTarget "AYBadgeViewUITests" */;
+			buildPhases = (
+				EF0E0CDD1F71FD9A00119D8F /* Sources */,
+				EF0E0CDE1F71FD9A00119D8F /* Frameworks */,
+				EF0E0CDF1F71FD9A00119D8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF0E0CE31F71FD9A00119D8F /* PBXTargetDependency */,
+			);
+			name = AYBadgeViewUITests;
+			productName = AYBadgeViewUITests;
+			productReference = EF0E0CE11F71FD9A00119D8F /* AYBadgeViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF0E0CB51F71FD9A00119D8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Tucodec;
+				TargetAttributes = {
+					EF0E0CBC1F71FD9A00119D8F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = J84PP8DUVK;
+						ProvisioningStyle = Automatic;
+					};
+					EF0E0CD51F71FD9A00119D8F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = J84PP8DUVK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF0E0CBC1F71FD9A00119D8F;
+					};
+					EF0E0CE01F71FD9A00119D8F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = J84PP8DUVK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF0E0CBC1F71FD9A00119D8F;
+					};
+				};
+			};
+			buildConfigurationList = EF0E0CB81F71FD9A00119D8F /* Build configuration list for PBXProject "AYBadgeView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF0E0CB41F71FD9A00119D8F;
+			productRefGroup = EF0E0CBE1F71FD9A00119D8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF0E0CBC1F71FD9A00119D8F /* AYBadgeView */,
+				EF0E0CD51F71FD9A00119D8F /* AYBadgeViewTests */,
+				EF0E0CE01F71FD9A00119D8F /* AYBadgeViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF0E0CBB1F71FD9A00119D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0E0CD01F71FD9A00119D8F /* LaunchScreen.storyboard in Resources */,
+				EF0E0CCD1F71FD9A00119D8F /* Assets.xcassets in Resources */,
+				EF0E0CCB1F71FD9A00119D8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0E0CD41F71FD9A00119D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0E0CDF1F71FD9A00119D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF0E0CB91F71FD9A00119D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0E0CC81F71FD9A00119D8F /* ViewController.m in Sources */,
+				EF0E0CC51F71FD9A00119D8F /* AppDelegate.m in Sources */,
+				EF0E0CC21F71FD9A00119D8F /* main.m in Sources */,
+				EF4362991F71FFED001A5AD0 /* UIView+AYBadge.m in Sources */,
+				EF43629F1F720213001A5AD0 /* UIBarButtonItem+AYBadge.m in Sources */,
+				EF4362961F71FEA2001A5AD0 /* AYBadgeLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0E0CD21F71FD9A00119D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0E0CDB1F71FD9A00119D8F /* AYBadgeViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0E0CDD1F71FD9A00119D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0E0CE61F71FD9A00119D8F /* AYBadgeViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF0E0CD81F71FD9A00119D8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF0E0CBC1F71FD9A00119D8F /* AYBadgeView */;
+			targetProxy = EF0E0CD71F71FD9A00119D8F /* PBXContainerItemProxy */;
+		};
+		EF0E0CE31F71FD9A00119D8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF0E0CBC1F71FD9A00119D8F /* AYBadgeView */;
+			targetProxy = EF0E0CE21F71FD9A00119D8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF0E0CC91F71FD9A00119D8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF0E0CCA1F71FD9A00119D8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF0E0CCE1F71FD9A00119D8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF0E0CCF1F71FD9A00119D8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF0E0CE81F71FD9A00119D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF0E0CE91F71FD9A00119D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF0E0CEB1F71FD9A00119D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J84PP8DUVK;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AYBadgeView/AYPrefixHeader.pch";
+				INFOPLIST_FILE = AYBadgeView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TucodecA.AYBadgeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF0E0CEC1F71FD9A00119D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J84PP8DUVK;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AYBadgeView/AYPrefixHeader.pch";
+				INFOPLIST_FILE = AYBadgeView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TucodecA.AYBadgeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF0E0CEE1F71FD9A00119D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J84PP8DUVK;
+				INFOPLIST_FILE = AYBadgeViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TucodecA.AYBadgeViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AYBadgeView.app/AYBadgeView";
+			};
+			name = Debug;
+		};
+		EF0E0CEF1F71FD9A00119D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J84PP8DUVK;
+				INFOPLIST_FILE = AYBadgeViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TucodecA.AYBadgeViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AYBadgeView.app/AYBadgeView";
+			};
+			name = Release;
+		};
+		EF0E0CF11F71FD9A00119D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = J84PP8DUVK;
+				INFOPLIST_FILE = AYBadgeViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TucodecA.AYBadgeViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AYBadgeView;
+			};
+			name = Debug;
+		};
+		EF0E0CF21F71FD9A00119D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = J84PP8DUVK;
+				INFOPLIST_FILE = AYBadgeViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TucodecA.AYBadgeViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AYBadgeView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF0E0CB81F71FD9A00119D8F /* Build configuration list for PBXProject "AYBadgeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0E0CE81F71FD9A00119D8F /* Debug */,
+				EF0E0CE91F71FD9A00119D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF0E0CEA1F71FD9A00119D8F /* Build configuration list for PBXNativeTarget "AYBadgeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0E0CEB1F71FD9A00119D8F /* Debug */,
+				EF0E0CEC1F71FD9A00119D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF0E0CED1F71FD9A00119D8F /* Build configuration list for PBXNativeTarget "AYBadgeViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0E0CEE1F71FD9A00119D8F /* Debug */,
+				EF0E0CEF1F71FD9A00119D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF0E0CF01F71FD9A00119D8F /* Build configuration list for PBXNativeTarget "AYBadgeViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0E0CF11F71FD9A00119D8F /* Debug */,
+				EF0E0CF21F71FD9A00119D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF0E0CB51F71FD9A00119D8F /* Project object */;
+}

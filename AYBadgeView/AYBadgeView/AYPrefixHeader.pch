@@ -1,0 +1,18 @@
+//
+//  AYPrefixHeader.pch
+//  AYBadgeView
+//
+//  Created by Yang on 2017/9/20.
+//  Copyright © 2017年 Tucodec. All rights reserved.
+//
+
+#ifndef AYPrefixHeader_pch
+#define AYPrefixHeader_pch
+
+#import "UIView+AYBadge.h"
+#import "UIBarButtonItem+AYBadge.h"
+
+
+
+
+#endif /* AYPrefixHeader_pch */
